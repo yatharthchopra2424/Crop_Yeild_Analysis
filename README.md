@@ -2,6 +2,8 @@
 
 ## Project Overview 📊
 
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)](https://crop-yeild-analysis.streamlit.app/)
+
 Welcome to the **Crop Yield ML Model** project, developed by *Team Meghdoot* from the 2nd Year, B.Tech CSE (Data Science) program. This project, titled **DEEP DATA HACK**, is driven by our motto **# हर काम देश के नाम** (Every Work for the Nation) 🇮🇳, aiming to leverage machine learning to predict crop yields and assist in agricultural decision-making. By analyzing factors such as geographical location, crop type, seasonal variations, and cultivation area, our model provides insights into expected yields, helping farmers 👨‍🌾 and policymakers make informed choices.
 
 ## Team Members 👥
@@ -9,6 +11,7 @@ Welcome to the **Crop Yield ML Model** project, developed by *Team Meghdoot* fro
 - **Prateek Kumar Prasad** (Roll No: 2301420018) ✨
 - **Yatharth Chopra** (Roll No: 2301420022) ✨
 - **Akshat Sharma** (Roll No: 2301420027) ✨
+
 
 ## Project Structure 🛠️
 
