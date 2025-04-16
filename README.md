@@ -24,17 +24,17 @@ The project is implemented in a Jupyter Notebook (`Crop_Yield_ML_Model_Updated_F
 
 ```mermaid
 graph TD
-    A[Start] --> B[Data Loading] 📥
-    B --> C[Data Preprocessing] 🧹
-    C --> D[Exploratory Data Analysis] 🔍
-    D --> E[Model Development] 🧠
-    E --> F[Regression Model] 📉
-    E --> G[Classification Model] 📊
-    F --> H[Model Evaluation] ✅
+    A[Start] --> B[Data Loading]
+    B --> C[Data Preprocessing]
+    C --> D[Exploratory Data Analysis]
+    D --> E[Model Development]
+    E --> F[Regression Model]
+    E --> G[Classification Model]
+    F --> H[Model Evaluation]
     G --> H
-    H --> I[Real-World Test Case] 🌏
-    I --> J[Visualization] 🎨
-    J --> K[End] 🏁
+    H --> I[Real-World Test Case]
+    I --> J[Visualization]
+    J --> K[End]
 ```
 
 ### 1. Data Loading and Preprocessing 📂
