@@ -69,11 +69,11 @@ def load_data():
 # Load encoders and model with caching
 @st.cache_resource
 def load_encoders_and_model():
-    label_encoder_state = joblib.load('label_encoder_state.pkl')
-    label_encoder_district = joblib.load('label_encoder_district.pkl')
-    label_encoder_crop = joblib.load('label_encoder_crop.pkl')
-    label_encoder_season = joblib.load('label_encoder_season.pkl')
-    model_clf = joblib.load('random_forest_classifier_full_feature_set.pkl')
+    label_encoder_state = joblib.load('./encoders/label_encoder_state.pkl')
+    label_encoder_district = joblib.load('./encoders/label_encoder_district.pkl')
+    label_encoder_crop = joblib.load('./encoders/label_encoder_crop.pkl')
+    label_encoder_season = joblib.load('./encoders/label_encoder_season.pkl')
+    model_clf = joblib.load('./encoders/random_forest_classifier_full_feature_set.pkl')
     return label_encoder_state, label_encoder_district, label_encoder_crop, label_encoder_season, model_clf
 
 # Load data and model
